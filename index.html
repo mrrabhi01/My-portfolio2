@@ -1,0 +1,581 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Data Analyst Portfolio — Turning data into actionable insights">
+  <title>Abhishek Singh | Data Analyst</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Navigation -->
+  <header class="header" id="header">
+    <nav class="nav container">
+      <a href="#home" class="nav__logo">
+        <span class="nav__logo-icon">◈</span>
+        <span>Abhishek Singh</span>
+      </a>
+      <button class="nav__toggle" id="nav-toggle" aria-label="Toggle menu" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <ul class="nav__menu" id="nav-menu">
+        <li><a href="#home" class="nav__link active">Home</a></li>
+        <li><a href="#about" class="nav__link">About</a></li>
+        <li><a href="#skills" class="nav__link">Skills</a></li>
+        <li><a href="#projects" class="nav__link">Projects</a></li>
+        <li><a href="#experience" class="nav__link">Experience</a></li>
+        <li><a href="#contact" class="nav__link nav__link--cta">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Hero -->
+    <section class="hero" id="home">
+      <div class="hero__bg">
+        <div class="hero__grid"></div>
+        <div class="hero__glow"></div>
+      </div>
+      <div class="container hero__content">
+        <p class="hero__badge">Data Analyst &amp; BI Specialist</p>
+        <h1 class="hero__title">
+          Turning <span class="text-gradient">raw data</span><br>
+          into decisions that matter
+        </h1>
+        <p class="hero__subtitle">
+          I help teams uncover patterns, build dashboards, and tell stories with data —
+          from SQL pipelines to executive-ready insights.
+        </p>
+        <div class="hero__actions">
+          <a href="#projects" class="btn btn--primary">View My Work</a>
+          <a href="#contact" class="btn btn--outline">Get In Touch</a>
+        </div>
+        <div class="hero__stats">
+          <div class="stat">
+            <span class="stat__number" data-target="50">0</span><span class="stat__suffix">+</span>
+            <span class="stat__label">Projects Delivered</span>
+          </div>
+          <div class="stat">
+            <span class="stat__number" data-target="5">0</span><span class="stat__suffix">+</span>
+            <span class="stat__label">Years Experience</span>
+          </div>
+          <div class="stat">
+            <span class="stat__number" data-target="12">0</span>
+            <span class="stat__label">Tools Mastered</span>
+          </div>
+        </div>
+      </div>
+      <a href="#about" class="hero__scroll" aria-label="Scroll down">
+        <span></span>
+      </a>
+    </section>
+
+    <!-- About -->
+    <section class="section about" id="about">
+      <div class="container">
+        <div class="section__header">
+          <span class="section__tag">About Me</span>
+          <h2 class="section__title">Data-driven problem solver</h2>
+        </div>
+        <div class="about__grid">
+          <div class="about__image">
+            <button class="about__avatar about__avatar--clickable" id="profile-cyert-trigger" type="button" aria-label="View my certificates">
+              <img src="images/abhi1.jpg" alt="Abhishek Singh">
+              <span class="about__avatar-overlay">
+                <span class="about__avatar-overlay-icon">🏅</span>
+                View Certificates
+              </span>
+            </button>
+            <div class="about__card about__card--1">
+              <span class="about__card-icon">📊</span>
+              <div>
+                <strong>98%</strong>
+                <small>Accuracy Rate</small>
+              </div>
+            </div>
+            <div class="about__card about__card--2">
+              <span class="about__card-icon">⚡</span>
+              <div>
+                <strong>40%</strong>
+                <small>Faster Reporting</small>
+              </div>
+            </div>
+          </div>
+          <div class="about__content">
+            <p class="about__text">
+              I'm a data analyst passionate about transforming complex datasets into clear,
+              actionable insights. With experience across finance, e-commerce, and SaaS, I bridge
+              the gap between technical analysis and business strategy.
+            </p>
+            <p class="about__text">
+              My approach combines rigorous statistical thinking with compelling data storytelling —
+              whether building automated ETL pipelines, designing interactive dashboards, or
+              presenting findings to stakeholders.
+            </p>
+            <ul class="about__highlights">
+              <li>
+                <span class="highlight__icon">✓</span>
+                End-to-end analytics: collection → cleaning → visualization
+              </li>
+              <li>
+                <span class="highlight__icon">✓</span>
+                A/B testing, cohort analysis &amp; predictive modeling
+              </li>
+              <li>
+                <span class="highlight__icon">✓</span>
+                Cross-functional collaboration with product &amp; engineering teams
+              </li>
+            </ul>
+            <a href="#" class="btn btn--primary btn--sm" download>Download Resume</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills -->
+    <section class="section skills" id="skills">
+      <div class="container">
+        <div class="section__header section__header--center">
+          <span class="section__tag">Skills &amp; Tools</span>
+          <h2 class="section__title">My analytics toolkit</h2>
+          <p class="section__desc">Technologies I use daily to extract, analyze, and visualize data.</p>
+        </div>
+        <div class="skills__grid">
+          <div class="skill-category">
+            <h3 class="skill-category__title">
+              <span class="skill-category__icon">🗄️</span>
+              Data &amp; Querying
+            </h3>
+            <div class="skill-tags">
+              <span class="skill-tag">SQL</span>
+              <span class="skill-tag">Python</span>
+              <span class="skill-tag">R</span>
+              <span class="skill-tag">PostgreSQL</span>
+              <span class="skill-tag">BigQuery</span>
+              <span class="skill-tag">Snowflake</span>
+            </div>
+          </div>
+          <div class="skill-category">
+            <h3 class="skill-category__title">
+              <span class="skill-category__icon">📈</span>
+              Visualization &amp; BI
+            </h3>
+            <div class="skill-tags">
+              <span class="skill-tag">Tableau</span>
+              <span class="skill-tag">Power BI</span>
+              <span class="skill-tag">Looker</span>
+              <span class="skill-tag">Excel</span>
+              <span class="skill-tag">Google Sheets</span>
+              <span class="skill-tag">D3.js</span>
+            </div>
+          </div>
+          <div class="skill-category">
+            <h3 class="skill-category__title">
+              <span class="skill-category__icon">🧪</span>
+              Analysis &amp; ML
+            </h3>
+            <div class="skill-tags">
+              <span class="skill-tag">Pandas</span>
+              <span class="skill-tag">NumPy</span>
+              <span class="skill-tag">Scikit-learn</span>
+              <span class="skill-tag">Statistics</span>
+              <span class="skill-tag">A/B Testing</span>
+              <span class="skill-tag">Forecasting</span>
+            </div>
+          </div>
+          <div class="skill-category">
+            <h3 class="skill-category__title">
+              <span class="skill-category__icon">⚙️</span>
+              Workflow &amp; Ops
+            </h3>
+            <div class="skill-tags">
+              <span class="skill-tag">dbt</span>
+              <span class="skill-tag">Airflow</span>
+              <span class="skill-tag">Git</span>
+              <span class="skill-tag">Jupyter</span>
+              <span class="skill-tag">AWS</span>
+              <span class="skill-tag">Docker</span>
+            </div>
+          </div>
+        </div>
+        <div class="skills__bars">
+          <div class="skill-bar">
+            <div class="skill-bar__header">
+              <span>SQL &amp; Data Modeling</span>
+              <span>95%</span>
+            </div>
+            <div class="skill-bar__track"><div class="skill-bar__fill" data-width="95"></div></div>
+          </div>
+          <div class="skill-bar">
+            <div class="skill-bar__header">
+              <span>Data Visualization</span>
+              <span>90%</span>
+            </div>
+            <div class="skill-bar__track"><div class="skill-bar__fill" data-width="90"></div></div>
+          </div>
+          <div class="skill-bar">
+            <div class="skill-bar__header">
+              <span>Python / Pandas</span>
+              <span>88%</span>
+            </div>
+            <div class="skill-bar__track"><div class="skill-bar__fill" data-width="88"></div></div>
+          </div>
+          <div class="skill-bar">
+            <div class="skill-bar__header">
+              <span>Statistical Analysis</span>
+              <span>85%</span>
+            </div>
+            <div class="skill-bar__track"><div class="skill-bar__fill" data-width="85"></div></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects -->
+    <section class="section projects" id="projects">
+      <div class="container">
+        <div class="section__header">
+          <span class="section__tag">Portfolio</span>
+          <h2 class="section__title">Featured projects</h2>
+          <p class="section__desc">Real-world analyses that drove measurable business impact.</p>
+        </div>
+        <div class="projects__filter">
+          <button class="filter-btn active" data-filter="all">All</button>
+          <button class="filter-btn" data-filter="dashboard">Dashboards</button>
+          <button class="filter-btn" data-filter="analysis">Analysis</button>
+          <button class="filter-btn" data-filter="ml">ML / Predictive</button>
+        </div>
+        <div class="projects__grid">
+          <article class="project-card" data-category="dashboard">
+            <div class="project-card__visual project-card__visual--1">
+              <div class="mini-chart">
+                <div class="bar" style="--h: 60%"></div>
+                <div class="bar" style="--h: 85%"></div>
+                <div class="bar" style="--h: 45%"></div>
+                <div class="bar" style="--h: 95%"></div>
+                <div class="bar" style="--h: 70%"></div>
+              </div>
+            </div>
+            <div class="project-card__body">
+              <span class="project-card__tag">Dashboard</span>
+              <h3 class="project-card__title">Sales Performance Dashboard</h3>
+              <p class="project-card__desc">
+                Built an interactive Tableau dashboard tracking KPIs across 12 regions,
+                reducing monthly reporting time by 40%.
+              </p>
+              <div class="project-card__tools">
+                <span>Tableau</span><span>SQL</span><span>BigQuery</span>
+              </div>
+              <div class="project-card__links">
+                <a href="#" class="project-card__link">View Dashboard →</a>
+                <a href="#" class="project-card__link project-card__link--muted">Case Study</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card" data-category="analysis">
+            <div class="project-card__visual project-card__visual--2">
+              <div class="mini-line">
+                <svg viewBox="0 0 120 40" preserveAspectRatio="none">
+                  <polyline points="0,35 20,28 40,32 60,15 80,20 100,8 120,12" fill="none" stroke="currentColor" stroke-width="2"/>
+                </svg>
+              </div>
+            </div>
+            <div class="project-card__body">
+              <span class="project-card__tag">Analysis</span>
+              <h3 class="project-card__title">Customer Churn Analysis</h3>
+              <p class="project-card__desc">
+                Identified top 5 churn drivers using cohort analysis and logistic regression,
+                informing a retention strategy that cut churn by 18%.
+              </p>
+              <div class="project-card__tools">
+                <span>Python</span><span>Pandas</span><span>Power BI</span>
+              </div>
+              <div class="project-card__links">
+                <a href="#" class="project-card__link">View Notebook →</a>
+                <a href="#" class="project-card__link project-card__link--muted">Case Study</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card" data-category="ml">
+            <div class="project-card__visual project-card__visual--3">
+              <div class="mini-dots">
+                <span></span><span></span><span></span>
+                <span></span><span></span><span></span>
+                <span></span><span></span><span></span>
+              </div>
+            </div>
+            <div class="project-card__body">
+              <span class="project-card__tag">ML / Predictive</span>
+              <h3 class="project-card__title">Demand Forecasting Model</h3>
+              <p class="project-card__desc">
+                Developed a time-series forecasting model with 92% accuracy, optimizing
+                inventory levels and saving $200K annually in holding costs.
+              </p>
+              <div class="project-card__tools">
+                <span>Python</span><span>Scikit-learn</span><span>Prophet</span>
+              </div>
+              <div class="project-card__links">
+                <a href="#" class="project-card__link">View Model →</a>
+                <a href="#" class="project-card__link project-card__link--muted">Case Study</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card" data-category="dashboard">
+            <div class="project-card__visual project-card__visual--4">
+              <div class="mini-pie"></div>
+            </div>
+            <div class="project-card__body">
+              <span class="project-card__tag">Dashboard</span>
+              <h3 class="project-card__title">Marketing Attribution Dashboard</h3>
+              <p class="project-card__desc">
+                Unified multi-channel marketing data into a single Power BI view,
+                enabling data-driven budget allocation across 6 campaigns.
+              </p>
+              <div class="project-card__tools">
+                <span>Power BI</span><span>dbt</span><span>Snowflake</span>
+              </div>
+              <div class="project-card__links">
+                <a href="#" class="project-card__link">View Dashboard →</a>
+                <a href="#" class="project-card__link project-card__link--muted">Case Study</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card" data-category="analysis">
+            <div class="project-card__visual project-card__visual--5">
+              <div class="mini-chart">
+                <div class="bar" style="--h: 75%"></div>
+                <div class="bar" style="--h: 55%"></div>
+                <div class="bar" style="--h: 90%"></div>
+                <div class="bar" style="--h: 65%"></div>
+              </div>
+            </div>
+            <div class="project-card__body">
+              <span class="project-card__tag">Analysis</span>
+              <h3 class="project-card__title">A/B Test — Checkout Flow</h3>
+              <p class="project-card__desc">
+                Designed and analyzed a checkout A/B test with 50K users, proving a 12%
+                conversion lift and informing a full rollout.
+              </p>
+              <div class="project-card__tools">
+                <span>SQL</span><span>Python</span><span>Looker</span>
+              </div>
+              <div class="project-card__links">
+                <a href="#" class="project-card__link">View Report →</a>
+                <a href="#" class="project-card__link project-card__link--muted">Case Study</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card" data-category="ml">
+            <div class="project-card__visual project-card__visual--6">
+              <div class="mini-line">
+                <svg viewBox="0 0 120 40" preserveAspectRatio="none">
+                  <polyline points="0,30 30,25 60,18 90,22 120,5" fill="none" stroke="currentColor" stroke-width="2"/>
+                </svg>
+              </div>
+            </div>
+            <div class="project-card__body">
+              <span class="project-card__tag">ML / Predictive</span>
+              <h3 class="project-card__title">Customer Segmentation (K-Means)</h3>
+              <p class="project-card__desc">
+                Clustered 100K customers into 5 actionable segments using RFM analysis
+                and K-Means, powering personalized marketing campaigns.
+              </p>
+              <div class="project-card__tools">
+                <span>Python</span><span>NumPy</span><span>Tableau</span>
+              </div>
+              <div class="project-card__links">
+                <a href="#" class="project-card__link">View Analysis →</a>
+                <a href="#" class="project-card__link project-card__link--muted">Case Study</a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Experience -->
+    <section class="section experience" id="experience">
+      <div class="container">
+        <div class="section__header">
+          <span class="section__tag">Career</span>
+          <h2 class="section__title">Experience &amp; education</h2>
+        </div>
+        <div class="timeline">
+          <div class="timeline__item">
+            <div class="timeline__marker"></div>
+            <div class="timeline__content">
+              <span class="timeline__date">2023 — Present</span>
+              <h3 class="timeline__title">Senior Data Analyst</h3>
+              <p class="timeline__company">TechCorp Inc.</p>
+              <p class="timeline__desc">
+                Lead analytics for the product team. Built self-serve dashboards, automated
+                weekly reporting, and mentored 2 junior analysts.
+              </p>
+            </div>
+          </div>
+          <div class="timeline__item">
+            <div class="timeline__marker"></div>
+            <div class="timeline__content">
+              <span class="timeline__date">2021 — 2023</span>
+              <h3 class="timeline__title">Data Analyst</h3>
+              <p class="timeline__company">GrowthMetrics Ltd.</p>
+              <p class="timeline__desc">
+                Owned marketing analytics pipeline. Delivered churn analysis, cohort reports,
+                and A/B test frameworks used by the growth team.
+              </p>
+            </div>
+          </div>
+          <div class="timeline__item">
+            <div class="timeline__marker"></div>
+            <div class="timeline__content">
+              <span class="timeline__date">2019 — 2021</span>
+              <h3 class="timeline__title">Junior Business Analyst</h3>
+              <p class="timeline__company">FinanceFirst Co.</p>
+              <p class="timeline__desc">
+                Supported financial reporting, created Excel models, and transitioned
+                legacy reports to SQL-based workflows.
+              </p>
+            </div>
+          </div>
+          <div class="timeline__item">
+            <div class="timeline__marker"></div>
+            <div class="timeline__content">
+              <span class="timeline__date">2015 — 2019</span>
+              <h3 class="timeline__title">B.S. in Statistics</h3>
+              <p class="timeline__company">State University</p>
+              <p class="timeline__desc">
+                Graduated with honors. Coursework in probability, regression analysis,
+                data mining, and econometrics.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="certifications">
+          <h3 class="certifications__title">Certifications</h3>
+          <div class="certifications__grid">
+            <button class="cert-card" type="button" data-cert-index="0" aria-label="View Google Data Analytics certificate">
+              <span class="cert-card__icon">🏅</span>
+              <div>
+                <strong>Google Data Analytics</strong>
+                <small>Professional Certificate</small>
+              </div>
+            </button>
+            <button class="cert-card" type="button" data-cert-index="1" aria-label="View Tableau Desktop Specialist certificate">
+              <span class="cert-card__icon">🏅</span>
+              <div>
+                <strong>Tableau Desktop Specialist</strong>
+                <small>Tableau Software</small>
+              </div>
+            </button>
+            <button class="cert-card" type="button" data-cert-index="2" aria-label="View AWS Cloud Practitioner certificate">
+              <span class="cert-card__icon">🏅</span>
+              <div>
+                <strong>AWS Cloud Practitioner</strong>
+                <small>Amazon Web Services</small>
+              </div>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="section contact" id="contact">
+      <div class="container">
+        <div class="contact__grid">
+          <div class="contact__info">
+            <span class="section__tag">Contact</span>
+            <h2 class="section__title">Let's work together</h2>
+            <p class="contact__text">
+              Have a data challenge or looking for an analyst? I'd love to hear from you.
+              Drop a message or connect on social.
+            </p>
+            <div class="contact__details">
+              <a href="mailto:aabhisheksingh104@gmail.com" class="contact__detail">
+                <span class="contact__detail-icon">✉️</span>
+                <span>aabhisheksingh104@gmail.com</span>
+              </a>
+              <a href="tel:+918969374762" class="contact__detail">
+                <span class="contact__detail-icon">📱</span>
+                <span>+918969374762</span>
+              </a>
+              <span class="contact__detail">
+                <span class="contact__detail-icon">📍</span>
+                <span>Mohali, Chandigarh, India</span>
+              </span>
+            </div>
+            <div class="contact__social">
+              <a href="https://www.linkedin.com/in/abhishek-singh-267282298/" class="social-link" aria-label="LinkedIn">in</a>
+              <a href="https://github.com/mrrabhi01" class="social-link" aria-label="GitHub">gh</a>
+              <a href="#" class="social-link" aria-label="Kaggle">kg</a>
+              <a href="#" class="social-link" aria-label="Twitter">𝕏</a>
+            </div>
+          </div>
+          <form class="contact__form" id="contact-form">
+            <div class="form-group">
+              <label for="name">Name</label>
+              <input type="text" id="name" name="name" placeholder="Your name" required>
+            </div>
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" placeholder="your@email.com" required>
+            </div>
+            <div class="form-group">
+              <label for="subject">Subject</label>
+              <input type="text" id="subject" name="subject" placeholder="Project inquiry" required>
+            </div>
+            <div class="form-group">
+              <label for="message">Message</label>
+              <textarea id="message" name="message" rows="5" placeholder="Tell me about your project..." required></textarea>
+            </div>
+            <button type="submit" class="btn btn--primary btn--full">Send Message</button>
+            <p class="form__status" id="form-status"></p>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer__inner">
+      <p>&copy; 2026 Your Name. Crafted with data &amp; curiosity.</p>
+      <a href="#home" class="footer__top">Back to top ↑</a>
+    </div>
+  </footer>
+
+  <!-- Certificate Viewer Modal -->
+  <div class="cert-modal" id="cert-modal" aria-hidden="true" role="dialog" aria-modal="true" aria-labelledby="cert-modal-title">
+    <div class="cert-modal__backdrop" id="cert-modal-backdrop"></div>
+    <div class="cert-modal__dialog">
+      <button class="cert-modal__close" id="cert-modal-close" type="button" aria-label="Close certificate viewer">&times;</button>
+      <div class="cert-modal__header">
+        <h3 id="cert-modal-title" class="cert-modal__title"></h3>
+        <p class="cert-modal__subtitle" id="cert-modal-subtitle"></p>
+      </div>
+      <div class="cert-modal__viewer">
+        <button class="cert-modal__nav cert-modal__nav--prev" id="cert-modal-prev" type="button" aria-label="Previous certificate">&#8249;</button>
+        <div class="cert-modal__image-wrap">
+          <img class="cert-modal__image" id="cert-modal-image" src="" alt="">
+          <p class="cert-modal__fallback" id="cert-modal-fallback" hidden>
+            Certificate image not found. Add your file to <code>images/certificates/</code>.
+          </p>
+        </div>
+        <button class="cert-modal__nav cert-modal__nav--next" id="cert-modal-next" type="button" aria-label="Next certificate">&#8250;</button>
+      </div>
+      <div class="cert-modal__dots" id="cert-modal-dots" role="tablist" aria-label="Certificate navigation"></div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
